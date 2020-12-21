@@ -1,5 +1,5 @@
 # GIT Exercise
-Ik heb deze oefening gekozen omdat het me wel interessant leek en ik de uitdaging wel wou uitgaan. Ik ben altijd bereid om mezelf te verbeteren waar mogelijk en daarom heb ik dus deze oefening gekozen.
+Ik heb deze oefening gekozen omdat het me wel interessant leek om te doen en ik de uitdaging wel wou uitgaan. Ik ben altijd bereid om mezelf te verbeteren waar mogelijk en daarom heb ik dus deze oefening gekozen.
 
 # Gilded Rose Refactoring Kata
 
