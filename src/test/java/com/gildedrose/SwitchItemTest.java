@@ -3,13 +3,14 @@ package com.gildedrose;
 import com.gildedrose.core.GildedRose;
 import com.gildedrose.core.Item;
 import com.gildedrose.items.NormalItem;
+import com.gildedrose.items.SwitchItem;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
 
 public class SwitchItemTest {
-    private Item[] items = new Item[]{new NormalItem("+5 Dexterity Vest", 10, 20)};
+    private Item[] items = new Item[]{new SwitchItem("Chain Vest", 10, 20)};
     private GildedRose app = new GildedRose(items);
 
     @Test
