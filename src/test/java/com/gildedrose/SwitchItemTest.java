@@ -15,14 +15,14 @@ public class SwitchItemTest {
     @Test
     void sellInValueSmallerThenZero(){
         app.calculateNextDay();
+        assert(app.items[0].sellIn == 9);
+        assert(app.items[0].quality == 21);
+        app.calculateNextDay();
+        assert(app.items[0].sellIn == 8);
+        assert(app.items[0].quality == 22);
+        app.calculateNextDay();
         assert(app.items[0].sellIn == 7);
         assert(app.items[0].quality == 23);
-        app.calculateNextDay();
-        assert(app.items[0].sellIn == 6);
-        assert(app.items[0].quality == 24);
-        app.calculateNextDay();
-        assert(app.items[0].sellIn == 5);
-        assert(app.items[0].quality == 25);
     }
 
     @Test

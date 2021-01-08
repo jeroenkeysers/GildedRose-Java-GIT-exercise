@@ -1,6 +1,5 @@
 package com.gildedrose.items;
 
-import com.gildedrose.core.GildedRose;
 import com.gildedrose.core.Item;
 
 public class SwitchItem extends Item {
@@ -20,15 +19,6 @@ public class SwitchItem extends Item {
             factor = 1;
             this.quality = Math.max(this.quality - factor, 0);
         }
-    }
-
-    @Override
-    public String toString() {
-        return "SwitchItem{" +
-                "name='" + name + '\'' +
-                ", sellIn=" + sellIn +
-                ", quality=" + quality +
-                '}';
     }
 }
 
