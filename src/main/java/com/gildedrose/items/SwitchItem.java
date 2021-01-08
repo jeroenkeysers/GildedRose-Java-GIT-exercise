@@ -30,5 +30,6 @@ public class SwitchItem extends Item {
                 ", quality=" + quality +
                 '}';
     }
+
 }
 

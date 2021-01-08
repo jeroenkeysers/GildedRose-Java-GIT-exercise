@@ -42,5 +42,6 @@ public class SwitchItemTest {
         assert(app.items[0].sellIn == -3);
         assert(app.items[0].quality == 0);
     }
+
 }
 
